@@ -1,7 +1,12 @@
-<!--<app-addtask></app-addtask>
-<app-edittask></app-edittask>
-<app-listtask></app-listtask>
-<app-login></app-login>
-<app-register></app-register>
-<app-home></app-home> -->
-<router-outlet></router-outlet>
+<h2>Task Management Application</h2>
+<style>
+    h2{
+        text-align: center;
+        opacity: 0.5;
+    }
+</style>
+<app-header></app-header>
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
+
